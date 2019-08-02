@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en"style="font-size: 12px">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/chuizi-iphone.css">
+</head>
+
+<body class="all-bg-color">
+    <script type="text/javascript">
+        function init() {
+            var width = document.documentElement.clientWidth;
+            //动态设置设备的html字体大小
+            document.documentElement.style.fontSize = (width / 320) * 12 + 'px';
+            if (width <= 320) {
+                document.documentElement.style.fontSize = 12 + 'px';
+            }
+        }
+        init()
+        //当屏幕宽度变化时
+        window.addEventListener('resize', init)
+        //当切换横竖屏时
+        window.addEventListener('orientationchange', init)
+
+    </script>
+
+    <div>
+        <div class="top-container">
+            <div class="top-search">
+                <div class="search-left">
+                    <img src="images/xiazai.png" alt="" class="xiazai">
+                </div>
+                <div class="search-middle">
+                    <img src="images/T2.png" alt="" class="T1">
+
+                </div>
+                <div class="search-right">
+                    <img src="images/search.png" alt="" class="search">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="first-box">
+            <div class="first-photo-box">
+                <img src="images/y1.png" alt="" class="y1">
+            </div>
+
+
+        </div>
+        <div class="dot">
+            <div class="dot1"></div>
+            <div class="dot1"></div>
+            <div class="dot1 dot3-style"></div>
+        </div>
+        <!-- 第二个盒子-------------------- -->
+        <div class="rexiao-shop-box">
+            <div class="rexiao-text-box">
+                <div class="rexiao-text">热销商品</div>
+                <div class="dayu">></div>
+            </div>
+            <!-- -------- -->
+            <div class="xie1-box">
+                <div class="left1">
+                    <div class="photo-box">
+                        <img src="images/xie.webp" alt="" class="xie-style">
+                    </div>
+                    <div class="photo-text1"> Smartisan 帆布鞋</div>
+                    <div class="photo-text2">一双踏实、舒适的帆布鞋</div>
+                    <div class="price">￥199.00</div>
+                </div>
+                <div class="left1">
+                    <div class="photo-box">
+                        <img src="images/chongdianqi.webp" alt="" class="xie-style">
+                    </div>
+                    <div class="photo-text1"> 坚果 QuickCharge 4+ 快速充电器</div>
+                    <div class="photo-text2">全面兼容的 18W 快速充电</div>
+                    <div class="price">￥59.00</div>
+                </div>
+
+                <div class="left1">
+                    <div class="photo-box">
+                        <img src="images/DNA.webp" alt="" class="xie-style">
+                    </div>
+                    <div class="photo-text1"> 各色DNA检测套装</div>
+                    <div class="photo-text2">千万级基因位点数据解读</div>
+                    <div class="price">￥499.00</div>
+                </div>
+                <div class="left1">
+                    <div class="photo-box">
+                        <img src="images/smart-T1.webp" alt="" class="xie-style">
+                    </div>
+                    <div class="photo-text1">Smartisan T恤 毕加索</div>
+                    <div class="photo-text2">10000mAh 双向快充、轻盈便携、高标准安全保护</div>
+                    <div class="price">￥149.00</div>
+                </div>
+                <div class="left1">
+                    <div class="photo-box">
+                        <img src="images/chongdianbao.webp" alt="" class="xie-style">
+                    </div>
+                    <div class="photo-text1">martisan 快充移动电源 10000mAh</div>
+                    <div class="photo-text2">10000mAh 双向快充、轻盈便携、高标准安全保护</div>
+                    <div class="price">￥499.00</div>
+                </div>
+                <div class="left1">
+                    <div class="photo-box">
+                        <img src="images/dianchi.webp" alt="" class="xie-style">
+                    </div>
+                    <div class="photo-text1"> 坚果“电池形电池”移动电源</div>
+                    <div class="photo-text2">别具一格的“全能型”移动电源</div>
+                    <div class="price">￥69.00</div>
+                </div>
+                <div class="left1">
+                    <div class="photo-box">
+                        <img src="images/erji.webp" alt="" class="xie-style">
+                    </div>
+                    <div class="photo-text1">Smartisan 半入耳式耳机</div>
+                    <div class="photo-text2">经典配色、专业调音、高品质麦克风</div>
+                    <div class="price">￥59.00</div>
+                </div>
+                <div class="left1">
+                    <div class="photo-box">
+                        <img src="images/yinxiang.webp" alt="" class="xie-style">
+                    </div>
+                    <div class="photo-text1"> 坚果砖式蓝牙小音箱</div>
+                    <div class="photo-text2">一款设计出色、音质出众的随身音箱</div>
+                    <div class="price">￥199.00</div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 第三个盒子------------------------------------ -->
+        <div class="xiangzi-box">
+            <div class="fushi-shop-box">
+                <div class="fushi-text-box">
+                    <div class="fushi-text">服饰箱包</div>
+                    <div class="dayu">></div>
+                </div>
+                <!-- -------- -->
+                <div class="xie2-box">
+                    <div class="xingli1">
+                        <img src="images/blackxingli.webp" alt="" class="blackxingli">
+                    </div>
+                    <div class="xingli2">
+                        <div class="lvxing">地平线 8 号旅行箱</div>
+                        <div class="lvxing-text1">简约设计、德国拜耳 PC 箱体</div>
+                        <div class="dott">
+                            <img src="images/dot.png" alt="">
+                        </div>
+                        <div class="price1">￥159.00</div>
+                    </div>
+                </div>
+                <div class="xie2-box">
+                    <div class="xingli1">
+                        <img src="images/smart-T2.webp" alt="" class="blackxingli">
+                    </div>
+                    <div class="xingli2">
+                        <div class="lvxing">Smartisan T恤 皇帝的新装</div>
+                        <div class="lvxing-text1">简约设计、德国拜耳 PC 箱体</div>
+                        <div class="dott">
+                            <img src="images/dot.png" alt="">
+                        </div>
+                        <div class="price1">149.00</div>
+                    </div>
+                </div>
+                <div class="xie2-box">
+                    <div class="xingli1">
+                        <img src="images/xinglixiang2.webp" alt="" class="blackxingli">
+                    </div>
+                    <div class="xingli2">
+                        <div class="lvxing">地平线 8 号商务旅行箱</div>
+                        <div class="lvxing-text1">为了野心和远方</div>
+                        <div class="dott">
+                            <img src="images/dot.png" alt="">
+                        </div>
+                        <div class="price1">￥999.00</div>
+                    </div>
+                </div>
+                <div class="xie2-box">
+                    <div class="xingli1">
+                        <img src="images/smart-T3.webp" alt="" class="blackxingli">
+                    </div>
+                    <div class="xingli2">
+                        <div class="lvxing">Smartisan T恤 红白机</div>
+                        <div class="lvxing-text1">简约设计、德国拜耳 PC 箱体</div>
+                        <div class="dott">
+                            <img src="images/dot.png" alt="">
+                        </div>
+                        <div class="price1">￥299.00</div>
+                    </div>
+                </div>
+                <div class="xie2-box">
+                    <div class="xingli1">
+                        <img src="images/smart-T4.webp" alt="" class="blackxingli">
+                    </div>
+                    <div class="xingli2">
+                        <div class="lvxing">Smartisan T恤 丑小鸭</div>
+                        <div class="lvxing-text1">简约设计、德国拜耳 PC 箱体</div>
+                        <div class="dott">
+                            <img src="images/dot.png" alt="">
+                        </div>
+                        <div class="price1">￥299.00</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 第四个盒子 ---------------------->
+        <div class="huxi-box">
+            <div class="huxi-shop-box">
+                <div class="huxi-text-box">
+                    <div class="huxi-text">畅呼吸</div>
+                    <div class="dayu">></div>
+                </div>
+            </div>
+            <div class="huxi-bottom-box">
+
+                <div class="bingxiang-box">
+                    <div class="bingxiang-img"><img src="images/b1.webp" alt="" class="bingxiang-size"></div>
+                
+                <div class="bingxiang-text1">畅呼吸智能空气净化器 · 标准版</div>
+                <div class="bingxiang-text2">超强净化能力、超低噪音、超长寿命</div>
+                <div class="price3">￥2,799.00</div>
+                </div>
+                <div class="bingxiang-box">
+                        <div class="bingxiang-img"><img src="images/binxiang2.webp" alt="" class="bingxiang-size"></div>
+                    
+                    <div class="bingxiang-text1">畅呼吸智能空气净化器 · 标准版</div>
+                    <div class="bingxiang-text2">超强除甲醛能力，超低噪音，智能操控</div>
+                    <div class="price3">￥2,999.00</div>
+                    </div>
+                    <div class="bingxiang-box">
+                            <div class="bingxiang-img"><img src="images/hezi.webp" alt="" class="bingxiang-size"></div>
+                        
+                        <div class="bingxiang-text1">畅呼吸除霾除甲醛高效复合滤芯</div>
+                        <div class="bingxiang-text2">精选双层防护材质、过滤更精细、去味更有效</div>
+                        <div class="price3">￥649.00</div>
+                        </div>
+                        <div class="bingxiang-box">
+                                <div class="bingxiang-img"><img src="images/chatou2.webp" alt="" class="bingxiang-size"></div>
+                            
+                            <div class="bingxiang-text1">畅呼吸除甲醛超级活性炭滤芯</div>
+                            <div class="bingxiang-text2">家装等场景适用的专业除甲醛超级活性炭滤芯</div>
+                            <div class="price3">￥549.00</div>
+                            </div>
+               
+            </div>
+        </div>
+        <!-- 第五个盒子---------------------------- -->
+        <div class="peijian-box">
+            <div class="peijian-shop-box">
+                <div class="peijian-text-box1">
+                    <div class="peijian-text">官方配件</div>
+                    <div class="dayu">></div>
+                </div>
+            </div>
+            <div class="peijian-bottom-box">
+
+                <div class="bingxiang-box">
+                    <div class="bingxiang-img"><img src="images/kuaichong.webp" alt="" class="bingxiang-size"></div>
+                
+                <div class="bingxiang-text1">Smartisan 双口 &amp; 快充车载充电器</div>
+                <div class="bingxiang-text2">铝合金机身、双口 &amp; 快充、智能调节</div>
+                <div class="price3">￥79.00</div>
+                </div>
+                <div class="bingxiang-box">
+                        <div class="bingxiang-img"><img src="images/dianchi.webp" alt="" class="bingxiang-size"></div>
+                    
+                    <div class="bingxiang-text1">坚果“电池形电池”移动电源</div>
+                    <div class="bingxiang-text2"></p>别具一格的“全能型”移动电源</div>
+                    <div class="price3">￥69.00</div>
+                    </div>
+                    <div class="bingxiang-box">
+                            <div class="bingxiang-img"><img src="images/erji1.webp" alt="" class="bingxiang-size"></div>
+                        
+                        <div class="bingxiang-text1">Smartisan 半入耳式耳机</div>
+                        <div class="bingxiang-text2">超强净化能力、超低噪音、超长寿命</div>
+                        <div class="price3">￥59.00</div>
+                        </div>
+                        <div class="bingxiang-box">
+                                <div class="bingxiang-img"><img src="images/shujuxian.webp" alt="" class="bingxiang-size"></div>
+                            
+                            <div class="bingxiang-text1">坚果彩虹数据线</div>
+                            <div class="bingxiang-text2">七彩配色随机发货，为生活增添一份小小惊喜</div>
+                            <div class="price3">￥59.00</div>
+                            </div>
+                            <div class="bingxiang-box">
+                                <div class="bingxiang-img"><img src="images/yinxiang.webp" alt="" class="bingxiang-size"></div>
+                            
+                            <div class="bingxiang-text1">坚果砖式蓝牙小音箱</div>
+                            <div class="bingxiang-text2">一款设计出色、音质出众的随身音箱</div>
+                            <div class="price3">￥49.00</div>
+                            </div>
+                            <div class="bingxiang-box">
+                                <div class="bingxiang-img"><img src="images/chongdianbao1.webp" alt="" class="bingxiang-size"></div>
+                            
+                            <div class="bingxiang-text1">Smartisan 快充移动电源 10000mAh</div>
+                            <div class="bingxiang-text2">10000mAh 双向快充、轻盈便携、高标准安全保护</div>
+                            <div class="price3">2,799.00</div>
+                            </div>
+               
+            </div>
+        </div>
+        <!-- 第六个盒子---------------------------- -->
+        <div class="shouji-box">
+            <div class="peijian-shop-box">
+                <div class="peijian-text-box">
+                    <div class="shouji-text">坚果系列手机及配件</div>
+                    <!-- <div class="dayu">></div> -->
+                </div>
+            </div>
+            <div class="peijian-bottom-box">
+
+                <div class="bingxiang-box">
+                    <div class="bingxiang-img"><img src="images/b1.webp" alt="" class="bingxiang-size"></div>
+                
+                <div class="bingxiang-text1">畅呼吸智能空气净化器 · 超级除甲醛版</div>
+                <div class="bingxiang-text2">超强净化能力、超低噪音、超长寿命</div>
+                <div class="price3">2,799.00</div>
+                </div>
+                <div class="bingxiang-box">
+                        <div class="bingxiang-img"><img src="images/shouji1.webp" alt="" class="bingxiang-size"></div>
+                    
+                    <div class="bingxiang-text1">坚果 Pro 2S</div>
+                    <div class="bingxiang-text2">双系统，无限屏</div>
+                    <div class="price3">2,799.00</div>
+                    </div>
+                    <div class="bingxiang-box">
+                            <div class="bingxiang-img"><img src="images/shouji2.webp" alt="" class="bingxiang-size"></div>
+                        
+                        <div class="bingxiang-text1">坚果 Pro 2S</div>
+                        <div class="bingxiang-text2">双系统，无限屏</div>
+                        <div class="price3">2,799.00</div>
+                        </div>
+                        <div class="bingxiang-box">
+                                <div class="bingxiang-img"><img src="images/chatou.webp" alt="" class="bingxiang-size"></div>
+                            
+                            <div class="bingxiang-text1">Smartisan 原装快充充电器 18W</div>
+                            <div class="bingxiang-text2">18W 安全快充</div>
+                            <div class="price3">2,799.00</div>
+                            </div>
+                            <div class="bingxiang-box">
+                                <div class="bingxiang-img"><img src="images/shujuxian1.webp" alt="" class="bingxiang-size"></div>
+                            
+                            <div class="bingxiang-text1">坚果 Type-C To Type-C 数据线</div>
+                            <div class="bingxiang-text2">TPE 环保材质，PTC 过温保护</div>
+                            <div class="price3">2,799.00</div>
+                            </div>
+                            <div class="bingxiang-box">
+                                <div class="bingxiang-img"><img src="images/dianchi.webp" alt="" class="bingxiang-size"></div>
+                            
+                            <div class="bingxiang-text1">坚果“电池形电池”移动电源</div>
+                            <div class="bingxiang-text2">别具一格的“全能型”移动电源</div>
+                            <div class="price3">2,799.00</div>
+                            </div>
+               
+            </div>
+        </div>
+        <div class="bottom-end-box">
+            <div class="left-first">
+                <div class="shouye-box">
+                    <img src="images/shouye-img.png" alt=""" class="shouye-img">
+                </div>
+                <div class="shouye-text">首页</div>
+            </div>
+            <div class="left-first">
+                <div class="shouye-box">
+                    <img src="images/fenlei.png" alt=""" class="shouye-img">
+                </div>
+                <div class="shouye-text">分类</div>
+            </div>
+            <div class="left-first">
+                <div class="shouye-box">
+                    <img src="images/gouwu1.png" alt=""" class="shouye-img">
+                </div>
+                <div class="shouye-text">购物车</div>
+            </div>
+            <div class="left-first">
+                <div class="shouye-box">
+                    <img src="images/geren.png" alt=""" class="shouye-img">
+                </div>
+                <div class="shouye-text">个人中心</div>
+            </div>
+            
+            
+           
+            
+        </div>
+    </div>
+</body>
+
+</html>
